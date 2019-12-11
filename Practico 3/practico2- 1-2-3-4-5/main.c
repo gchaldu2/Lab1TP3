@@ -12,7 +12,7 @@ int sumar (Pila pepe)
     inicpila(&aux);
 
     int suma=0;
-
+    printf("La pila PEPE\n");
     while(!pilavacia(&pepe))
     {
         suma = suma + tope(&pepe);
